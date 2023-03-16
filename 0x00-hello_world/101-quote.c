@@ -13,8 +13,8 @@
 
 int main(void)
 {
-	char quoteToPrint[] = "and that piece of art is useful\" - Dora Korgar, 2015-10-19\n";
+	char qtp[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, quoteToPrint, 59);
+	write(2, qtp, 59);
 	return (1);
 }
