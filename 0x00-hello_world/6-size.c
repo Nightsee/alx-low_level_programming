@@ -1,10 +1,12 @@
 #include<stdio.h>
 
 /**
- * * main - entry point
- *  *
- *   * return: always 0 (success)
- */
+ * main - entry  point
+ *
+ * description : this c program prints the size of every data type
+ *
+ * Return: Always 0 (success)
+*/
 
 int main(void)
 {

@@ -1,9 +1,12 @@
 #include<stdio.h>
 
-/*
- * the main function takes nothing as argument, and it returns 0
+/**
+ * main - Entry point
  *
- */
+ * Descrpition : this c program prints using the printf function
+ *
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
