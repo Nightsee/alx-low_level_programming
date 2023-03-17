@@ -6,19 +6,18 @@
  * Return: Always 0 (success)
 */
 
-int main()
+int main(void)
 {
-    char ch;
-  
-    for (ch = 'a'; ch <= 'z'; ch++)
-    {
-    	if(ch != 'q' && ch != 'e')
-	{
-		putchar(ch);
-	}
-    }
-        
-    putchar('\n');
+	char ch;
 
-    return 0;
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		if (ch != 'q' && ch != 'e')
+		{
+			putchar(ch);
+		}
+	}
+	putchar('\n');
+
+	return (0);
 }
