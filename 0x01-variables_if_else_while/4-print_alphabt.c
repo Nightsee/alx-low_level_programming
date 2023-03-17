@@ -10,7 +10,6 @@ int main()
 {
     char ch;
   
-    // Write the Character to stdout
     for (ch = 'a'; ch <= 'z'; ch++)
     {
     	if(ch != 'q' && ch != 'e')
