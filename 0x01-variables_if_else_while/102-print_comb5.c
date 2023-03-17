@@ -8,7 +8,7 @@
 
 int main(void)
 {
-int i, e, g, h, i, j;
+int i, e, g, h, k, j;
 
 i = e = g = h = 48;
 while (h < 58)
@@ -22,9 +22,9 @@ while (h < 58)
 			i = 48;
 			while (i < 58)
 			{
-				i = (h * 10) + g;
+				k = (h * 10) + g;
 				j = (e * 10) + i;
-				if (i < j)
+				if (k < j)
 				{
 					putchar(h);
 					putchar(g);
