@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - prints the sum
+ *
+ * Return: always 0 for success
+*/
 
 int main(void)
 {
