@@ -12,14 +12,15 @@
 void print_line(int n)
 {
 	int underscore = 95;
+	int i;
 
-	if ((n == 0) || (n < 0))
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (n; n > 0; n--)
+		for (i = 0; i < n; i++)
 		{
 			_putchar(underscore);
 		}
