@@ -11,14 +11,12 @@
 char *_strchr(char *s, char c)
 {
 	unsigned int i;
-	int *first_occurence;
 
 	while (*(s + i) != '\0')
 	{
 		if (*(s + i) == c)
 		{
-			first_occurence = s + i;
-			return (first_occurence);
+			return (S + i);
 		}
 		i++;
 	}
