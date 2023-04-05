@@ -2,7 +2,7 @@
 /**
  * _pow_recursion - returns the power of x
  * @x: base
- * @y; exponent
+ * @y: exponent
  * Return: value of the exponentiation
 */
 int _pow_recursion(int x, int y)
