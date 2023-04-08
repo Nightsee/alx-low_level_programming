@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - prints the multiplication of two integers
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: Always 0
 */
-
 int main(int argc, char *argv[])
 {
 	if (argc != 3)
