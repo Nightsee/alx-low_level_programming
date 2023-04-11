@@ -1,0 +1,3 @@
+functions : 
+	- malloc
+	- free
